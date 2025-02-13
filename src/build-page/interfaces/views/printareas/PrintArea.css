@@ -1,0 +1,28 @@
+:root {
+  --print-area-border-radius: 8px;
+  --print-area-surface: #f6f6f6;
+  --print-area-title-font-size: 16px;
+  --print-area-title-color: #3a6b88;
+}
+
+.printarea {
+  box-sizing: border-box;
+  padding: 0px 10px 10px 10px;
+  width: 100%;
+  height: 197;
+  gap: 0;
+  border-radius: var(--print-area-border-radius);
+  background: var(--print-area-surface, #f6f6f6);
+}
+
+.printarea > p {
+  width: fit-content;
+  margin: 0;
+  padding: 10px 10px 15px 10px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: var(--print-area-title-font-size);
+  line-height: 19.5px;
+  letter-spacing: 0%;
+  color: var(--print-area-title-color, #3a6b88);
+}

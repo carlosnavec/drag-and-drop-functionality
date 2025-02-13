@@ -1,0 +1,22 @@
+:root {
+  --spaces-3: 2px;
+  --font-size-1: 18px;
+  --spaces-3: 24px;
+  --canvas-title-color: #3a6b88;
+  --placeholder-border-radius: 8px;
+  --placeholder-surface: #ffffff;
+  --placeholder-border-default: #c2c2c2;
+}
+
+body {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: var(--font-size-1);
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100vh;
+}

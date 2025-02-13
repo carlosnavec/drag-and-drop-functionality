@@ -1,0 +1,45 @@
+.placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 138px;
+  border-radius: var(--placeholder-border-radius);
+  border-width: 1px;
+  background: var(--placeholder-surface, #ffffff);
+  border: 1px dashed var(--placeholder-border-default, #c2c2c2);
+}
+
+.placeholder.default {
+  border: 1px dashed var(--placeholder-border-default, #c2c2c2);
+}
+
+.placeholder.active {
+  border: 1px solid var(--placeholder-border-active, #1e4054);
+}
+
+.placeholder p {
+  text-align: center;
+  margin: 0;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  letter-spacing: 0%;
+}
+
+.placeholder.items {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: transparent;
+  border-style: none;
+}
+
+.placeholder.items > p {
+  display: none;
+}
+
+.placeholder.items .card {
+  width: calc(100% - 20px);
+}
