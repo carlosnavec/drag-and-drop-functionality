@@ -91,3 +91,21 @@ The project follows a hexagonal architecture to ensure maintainability and scala
 ### Styling: 
 
 - Ensure implementation matches the Figma design. 
+
+## Short answer document. Responses
+
+- **How did you structure your JavaScript, and why?**
+
+  I followed hexagonal architecture principles to ensure maintainability and a well-structured project. This approach makes it easier to implement new features and maintain existing code.
+  I chose not to rely on any JavaScript libraries to demonstrate my proficiency in the language and my ability to apply good programming practices.
+
+- **How did you handle performance optimization in your implementation?**
+
+  This project doesn’t currently have performance issues to address, as there’s no large batch of data to render or functionalities that require lazy loading. However, I ensured a strong foundation by following SOLID principles and incorporating good practices in the code structure.
+
+- **How would you modernize this while keeping it compatible with legacycode?**
+
+  First, I would implement tests for the core functionalities and requirements of the project using tools like Jest and Cypress. This approach helps familiarize myself with the codebase and ensures consistency as we introduce improvements.
+  Next, I would review the code to ensure it aligns with a standard hexagonal architecture.
+  Finally, I would integrate a CI/CD system to streamline development and deployment processes.
+  Additionally, I would create a visual component library using a tool like Storybook and explore integrating React.js to modernize the codebase further.
